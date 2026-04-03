@@ -1,4 +1,3 @@
-// web/tsconfig.json
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -11,6 +10,7 @@
     "resolveJsonModule": true,
     "declaration": true,
     "declarationMap": true,
+    "composite": true,
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
