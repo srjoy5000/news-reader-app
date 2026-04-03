@@ -1,0 +1,18 @@
+{
+  "name": "news-reader",
+  "version": "1.0.0",
+  "description": "A Flipboard-like news reader with React + Vite frontend and Express proxy backend",
+  "private": true,
+  "scripts": {
+    "server:install": "cd server && npm install",
+    "web:install": "cd web && npm install",
+    "server:dev": "cd server && npm run dev",
+    "web:dev": "cd web && npm run dev",
+    "dev": "concurrently \"npm run server:dev\" \"npm run web:dev\"",
+    "build:web": "cd web && npm run build",
+    "preview:web": "cd web && npm run preview"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
